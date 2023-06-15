@@ -584,6 +584,56 @@ main {
   border-radius: 10px;
 }
 
+.contact-redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-redes-icon {
+  display: flex;
+  padding-bottom: 10px;
+  gap: 25px;
+  font-size: 35px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.contact-redes-icon :nth-child(1):hover {
+  transition: all 0.2s linear;
+  color: #3b5998;
+}
+
+.contact-redes-icon :nth-child(2):hover {
+  transition: all 0.2s linear;
+  color: #00acee;
+}
+
+.contact-redes-icon :nth-child(3):hover {
+  transition: all 0.2s linear;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.contact-redes-icon :nth-child(4):hover {
+  transition: all 0.2s linear;
+  color: #c5201a;
+}
+
+.contact-redes-icon :nth-child(5):hover {
+  transition: all 0.2s linear;
+  color: #c8232c;
+}
+
 /* footer */
 
 footer {
@@ -814,6 +864,10 @@ footer img {
     font-size: 15px;
   }
 
+  .contact-redes-icon {
+    font-size: 30px;
+  }
+
   footer {
     height: 520px;
     padding: 20px;
@@ -943,6 +997,10 @@ footer img {
 
   #contact h3 {
     font-size: 16px;
+  }
+
+  .contact-redes-icon {
+    font-size: 25px;
   }
 
   .contact-info-user {
