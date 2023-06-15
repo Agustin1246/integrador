@@ -154,6 +154,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .hero-info {
@@ -178,7 +179,7 @@ main {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.4em;
-  width: 100%;
+  width: 85%;
 }
 
 .hero-info a {
@@ -209,7 +210,7 @@ main {
 }
 
 .hero-card {
-  width: 400px;
+  width: 370px;
   background: linear-gradient(to top, #858282, #b30738);
   padding: 0px;
   border-radius: 15px;
@@ -245,7 +246,7 @@ main {
   padding: 10px;
   background: #ffffff;
   color: #222c49;
-  width: 380px;
+  width: 350px;
   border-radius: 10px;
 }
 
@@ -275,7 +276,7 @@ main {
   align-items: center;
   background: #ffffff;
   color: #222c49;
-  height: 90px;
+  height: 70px;
   width: 100%;
   border-radius: 15px;
   gap: 5px;
@@ -293,17 +294,18 @@ main {
 
 .off {
   color: #222c49;
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Holtwood One SC", serif;
 }
 
 .h-c-stock h3 {
   font-family: "Holtwood One SC", serif;
+  font-size: 18px;
 }
 
 .h-c-stock p {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 1.4em;
   text-transform: uppercase;
 }
@@ -835,4 +837,124 @@ footer img {
 /* responsive hasta 576px */
 
 @media (max-width: 576px) {
+  .overlay {
+    height: 200vh;
+  }
+
+  header {
+    padding: 0 25px 0 25px;
+  }
+
+  #img-port {
+    padding: 0 10px;
+    /* width: 180%; */
+  }
+
+  #img-port img {
+    padding: 0;
+    height: 10%;
+  }
+
+  #hero {
+    padding: 10px;
+  }
+
+  .hero-info {
+    width: 80%;
+  }
+
+  .hero-info h1 {
+    font-size: 20px;
+  }
+
+  .hero-info p {
+    font-size: 13px;
+  }
+
+  .hero-card {
+    width: 300px;
+  }
+
+  .hero-card-top {
+    width: 100%;
+  }
+
+  .h-c-stock {
+    width: 90px;
+  }
+
+  .h-c-stock h3 {
+    font-size: 15px;
+  }
+
+  .hero-card-info p {
+    font-size: 13px;
+  }
+
+  .off {
+    font-size: 16px;
+  }
+
+  .about-info {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .about-info h2 {
+    min-width: 0;
+  }
+
+  #about-card {
+    padding: 30px 10px 10px 10px;
+  }
+
+  #about-card h3 {
+    width: 80%;
+  }
+
+  .about-card-info {
+    padding: 10px;
+  }
+
+  .about-card-container {
+    width: 100%;
+    height: 80%;
+  }
+
+  #cards {
+    padding: 0px;
+  }
+
+  .cards-h2 {
+    min-width: 0;
+  }
+
+  .cards-container {
+    padding: 10px;
+  }
+
+  #contact {
+    padding: 10px;
+  }
+
+  #contact h2 {
+    min-width: 0;
+  }
+
+  #contact h3 {
+    font-size: 16px;
+  }
+
+  .contact-info-user {
+    gap: 10px;
+  }
+
+  #contact p {
+    font-size: 13px;
+  }
+
+  .contact-location iframe {
+    width: 305px;
+    height: 305px;
+  }
 }
