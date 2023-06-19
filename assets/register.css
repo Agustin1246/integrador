@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Poppins&family=Prompt:wght@500&family=Roboto:wght@500&family=Sigmar&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+main {
+  background: url(../assets/img/img-hero2.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.volver {
+  padding: 15px;
+}
+.back {
+  font-size: 17px;
+  font-weight: 600;
+  height: 29px;
+  width: 130px;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #b30738;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b30738;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.back:hover {
+  border-color: #686767;
+  background-color: #686767;
+  transition: all 0.2s linear;
+  transform: scale(1.02);
+}
+
+#register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 430px;
+  gap: 10px;
+  background-color: rgba(243, 243, 243, 0.6);
+  border: solid #ffffff 2px;
+  border-radius: 5px;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container img {
+  width: 140px;
+}
+
+.register-container h3 {
+  font-family: "Holtwood One SC", serif;
+  color: #70384d;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.register-container p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222c49;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+
+.form input {
+  width: 170px;
+  height: 25px;
+  border-radius: 2px;
+  border: none;
+  background: rgba(243, 243, 243, 0.9);
+  border-bottom: 1px #686767 solid;
+}
+
+.form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px #222c49 solid;
+}
+
+.register-form button {
+  font-size: 17px;
+  font-weight: 600;
+  height: 29px;
+  width: 130px;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #b30738;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b30738;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.register-form button:hover {
+  border-color: #686767;
+  background-color: #686767;
+  transition: all 0.2s linear;
+  transform: scale(1.02);
+}
+
+.contact-redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-redes-icon {
+  display: flex;
+  padding-bottom: 10px;
+  gap: 15px;
+  font-size: 23px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.contact-redes-icon :nth-child(1):hover {
+  transition: all 0.2s linear;
+  color: #3b5998;
+}
+
+.contact-redes-icon :nth-child(2):hover {
+  transition: all 0.2s linear;
+  color: #00acee;
+}
+
+.contact-redes-icon :nth-child(3):hover {
+  transition: all 0.2s linear;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.contact-redes-icon :nth-child(4):hover {
+  transition: all 0.2s linear;
+  color: #c5201a;
+}
+
+.contact-redes-icon :nth-child(5):hover {
+  transition: all 0.2s linear;
+  color: #c8232c;
+}
+
+@media (max-width: 576px) {
+  .back {
+    font-size: 15px;
+    font-weight: 400;
+    height: 25px;
+    width: 110px;
+  }
+
+  .register-container p {
+    font-size: 14px;
+  }
+
+  .register-container {
+    width: 320px;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .register-form button {
+    font-size: 15px;
+    font-weight: 400;
+    height: 25px;
+    width: 110px;
+  }
+}
